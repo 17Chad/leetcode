@@ -11,7 +11,7 @@ Input: nums = [0,1,0,3,12]
 Output: [1,3,12,0,0]
 '''
 
-class Solution(object):
+class Solution:
     def moveZeroes(nums):
         # No creating a new list, must do in place
         prev_index = 0
